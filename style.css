@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.timer{
+    margin: 20% auto;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+.timer__container {
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+.timer__title {
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.timer__box {
+    width: 150px;
+    height: 150px;
+    display: block;
+    box-shadow:0 4px 20px rgba(0, 0, 0, 0.527);
+    background-color:aliceblue;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Roboto';
+}
+.timer__box span{
+    font-family:'Roboto';
+    font-size: 80px;
+    
+}
